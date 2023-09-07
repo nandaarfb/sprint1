@@ -11,7 +11,7 @@ class HelperController extends Controller
 	protected $key;
 	private $error;
 
-	public static function _request($path, $request = null)
+	public static function _request($path)
 	{
 		$url = env('RAJAONGKIR_ENDPOINT') . "/" . $path;
 
